@@ -19,10 +19,18 @@
     </head>
     
     <body class="" id="page-top">
-        <video controls="controls" class="fixed-top" autoplay muted loop>
+
+       
+        <!-- <video controls="controls" class="fixed-top" autoplay muted>
             <source src="../assets/img/portfolio/AdobeStock_345456872.mp4" type="video/mp4" >
-        </video>
+        </video> -->
+        <div class="home-top-video">
+            <video controls="controls" class="fixed-top" autoplay onloadedmetadata="this.muted = true" oncanplay="this.play()" looped>
+                <source src="../assets/img/portfolio/AdobeStock_345456872.mp4" type="video/mp4" />
+            </video>
+        </div>
         <div class="body-area">
+           
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
             <div class="container black-navbar">
@@ -40,11 +48,14 @@
                 </div>
             </div>
         </nav>
+        
+
+
         <!-- Masthead-->
         <header class="masthead  text-center">
             <div class="container d-flex align-items-center flex-column" style="z-index: 100;">
               
-                <h1  class="masthead-heading text-uppercase mb-0 font-white">yes</h1>
+                <h1  class="masthead-heading text-uppercase mb-0 font-white">Daniel Lohn</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
