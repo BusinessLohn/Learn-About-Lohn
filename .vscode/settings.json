@@ -1,0 +1,8 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/834358ea-78b7-453f-b7f7-f9389b62ecc9/resourceGroups/LearnAboutLohnProd/providers/Microsoft.Web/sites/LearnAboutLohn",
+    "appService.deploySubpath": "dist/learn-about-lohn",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
+}
