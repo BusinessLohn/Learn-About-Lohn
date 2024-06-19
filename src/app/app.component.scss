@@ -64,7 +64,7 @@ html {
     align-items: center;
   }
   body{
-    background-color:#000000;
+    background-color:#1f1f1f;
     opacity:96%
   }
   
@@ -224,6 +224,7 @@ html {
   }
   video {
     z-index:-100;
+    background:linear-gradient(to right,rgba(65, 0, 255, 0.4),rgba(255, 0, 232, 0.3));
   }
 
   .border-image {
